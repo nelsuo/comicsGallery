@@ -1,0 +1,21 @@
+Comics Gallery is a jquery plugin for slidding through multiple images, with a cool "comic book eye panning" animation.
+
+
+
+$().ready(function () {				
+	options = {
+		outerPanelWidth: 900,
+		outerPanelHeight: 600,				
+		innerPanelWidth: 1600,
+		innerPanelHeight: 900,
+		cyclic: false,
+       		cyclicRandom: true,
+		cyclicTimeInterval: 750			
+	};				
+	$('#test').comicsGallery(options);
+});		
+
+
+
+
+License: MIT
