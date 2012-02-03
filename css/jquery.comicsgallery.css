@@ -1,0 +1,39 @@
+.comicsGallery_window { 
+	overflow:hidden; 
+	position:relative;
+	background-color:#333;
+}
+
+.comicsGallery_board { 
+	position:absolute; 
+	top:0; 
+	left:0;  
+	-webkit-transition: all 0.5s ease-in; -moz-transition: all 0.5s ease-in; -o-transition: all 0.5s ease-in; transition: all 0.5s ease-in;  
+}
+
+
+
+.blackout { 
+	background-color:#000; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	-webkit-transition: all 0.5s ease-in; -moz-transition: all 0.5s ease-in; -o-transition: all 0.5s ease-in; transition: all 0.5s ease-in; 
+	opacity:0.8; 
+	z-index:2; 
+}
+
+.comicsGallery_navigation {
+	z-index: 4;
+	color: white;
+	position: absolute;
+	bottom: 20px;	
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.comicsGallery_navigation.previous { left:20px; }
+.comicsGallery_navigation.next { right:20px; }

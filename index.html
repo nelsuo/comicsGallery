@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=990">
+		<title>Comics Gallery</title>
+		<link rel="stylesheet" href="css/reset.css">		
+		<link rel="stylesheet" href="css/example.css">
+		<script src="js/jquery.js"></script>
+		
+		<link rel="stylesheet" href="css/jquery.comicsgallery.css">
+		<script src="js/jquery.comicsgallery.js"></script>	
+			
+		<script type='text/javascript'>
+			$().ready(function () {				
+				options = {
+					outerPanelWidth: 900,
+					outerPanelHeight: 600,				
+					innerPanelWidth: 1600,
+					innerPanelHeight: 900,
+					cyclic: false,
+            		cyclicRandom: true,
+            		cyclicTimeInterval: 750			
+				};				
+				$('#test').comicsGallery(options);
+			});						
+		</script>
+		
+	</head>
+	<body>
+		<div id='test'>			
+			<div id='t1' class='t'><a href='#1'><img src='http://www.scarlettjohansson.org/pictures/scarlettjohansson51.jpg' /></a></div>
+			<div id='t2' class='t'><a href='#2'><img src='http://www.best-cine.com/wp-content/uploads/2011/01/cinema-Monica-Bellucci.jpg' /></a></div>
+			<div id='t3' class='t'><a href='#3'><img src='http://2.bp.blogspot.com/-bfLKhStLEtU/TWbNz9vId3I/AAAAAAAAAew/zaQGQ7Pf-0E/s1600/adrianalima.jpg' /></a></div>
+			<div id='t4' class='t'><a href='#4'><img src='http://www.mulherfeliz.com.br/wp-content/uploads/cabelos-de-gisele-bundchen.jpg	' /></a></div>
+			<div id='t5' class='t'><a href='#5'><img src='http://www.classificadoscarioca.com.br/wp-content/uploads/2011/10/alicia-keys.jpg' /></a></div>
+			<div id='t6' class='t'><a href='#6'><img src='http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Kim_Kardashian.jpg/200px-Kim_Kardashian.jpg' /></a></div>
+			<div id='t7' class='t'><a href='#7'><img src='http://images.sodahead.com/polls/000977729/angelina_jolie_beautiful_face_013u_answer_1_xlarge.jpeg' /></a></div>
+			<div id='t8' class='t'><a href='#8'><img src='http://www.keiraknightleygalleries.com/keira-knightley-gallery/keira-knightley-35.jpg' /></a></div>
+			<div id='t9' class='t'>
+				teste de texto!!! lalalal<br />
+				dfsadfdsfasdf<br />
+				dfsadfdsfasdf<br />
+				dfsadfdsfasdf<br />
+				dfsadfdsfasdf<br />
+				dfsadfdsfasdf<br />
+			</div>		
+		</div>
+	</body>
+<body>
